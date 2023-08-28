@@ -1,0 +1,16 @@
+.btns{
+    background-color: '#DFE6EA';
+    color: '#3A60F5';
+    padding: '10px';
+    border-radius: '6px';
+    border: 'none';
+}
+
+.btns:hover{
+    background-color: '#3A60F5';
+    color: '#DFE6EA';
+    padding: '12px';
+    border-radius: '6px';
+    border: '0.5 solid';
+    cursor: pointer;
+}

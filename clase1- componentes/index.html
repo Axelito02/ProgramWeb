@@ -7,14 +7,17 @@
     <title>Vite App</title>
   </head>
   <body>
-    <h1>Practicando componenentes</h1>
-    <template>
-      <h1>Practicando componenentes</h1>
-    </template>
+    <div class= "main">
+      <div class="content-header">
+        <h-component>Counter</h-component>
+        <counter-component value="0"></counter-component>
+      </div>
+      <div class="content-btn">
+        <btn-component type = "substract"></btn-component>
+        <btn-component type = "add"></btn-component>
+      </div>
+    </div>
 
-    <h-component></h-component>
-
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
