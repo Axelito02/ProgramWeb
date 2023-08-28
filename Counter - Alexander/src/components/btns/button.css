@@ -1,16 +1,24 @@
-.btns{
-    background-color: '#DFE6EA';
-    color: '#3A60F5';
-    padding: '10px';
-    border-radius: '6px';
-    border: 'none';
+button{
+    background-color: #3A60F5;
+    color: #DFE6EA;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    width: 160px;
+    font-weight: 900;
 }
 
-.btns:hover{
-    background-color: '#3A60F5';
-    color: '#DFE6EA';
-    padding: '12px';
-    border-radius: '6px';
-    border: '0.5 solid';
-    cursor: pointer;
+.Rest{
+    background-color: brown;
+    &:hover{
+        background-color: rgb(138, 35, 35);
+    }
+}
+
+.Sum{
+    background-color: rgb(74, 212, 47);
+    &:hover{
+        background-color: rgb(65, 184, 42);
+    }
 }
