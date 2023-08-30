@@ -1,0 +1,7 @@
+.ListTaks{
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+    align-items: center;
+    justify-content: space-around;
+}

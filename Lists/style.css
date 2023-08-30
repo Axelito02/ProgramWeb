@@ -3,3 +3,10 @@
   padding: 0;
   margin: 0;
 }
+
+#app{
+  border: solid 0.5px;
+  border-radius: 8px;
+  border-color: rgb(160, 160, 160);
+  background-color: rgb(131, 245, 245);
+}
