@@ -11,7 +11,7 @@ return(
                 <InputCheck type="Check"/>
             </div>
             <div>
-                <p>Content the tak</p>
+                <p>Buenas</p>
             </div>
             <div>
                 <BtnDelete type="Delete"/>

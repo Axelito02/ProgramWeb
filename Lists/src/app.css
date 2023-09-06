@@ -21,4 +21,5 @@ main{
     display: flex;
     justify-content: center;
     padding: 6px 12px;
+    text-decoration: wavy;
 }

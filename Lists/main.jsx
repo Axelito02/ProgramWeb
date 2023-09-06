@@ -5,5 +5,4 @@ import './style.css'
 
 const rootElement = document.getElementById("app")
 const root = createRoot(rootElement)
-console.log(rootElement)
 root.render(<App />)
