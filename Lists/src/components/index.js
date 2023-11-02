@@ -1,5 +1,0 @@
-export * from './btns/btnAddWork'
-export * from './btns/btnDelete'
-export * from './itemList/containerItems'
-export * from './inputs/inputCheck'
-export * from './inputs/inputWork'
