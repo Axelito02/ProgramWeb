@@ -1,0 +1,62 @@
+.title {
+    display: flex;
+    flex-direction: row;
+    padding: 0 80px;
+    color: #E48A32;
+
+    & h1 {
+        border-bottom: #E48A32 8px solid;
+        font-size: 3rem;
+    }
+}
+
+.Values {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin: 32px 90px;
+
+    & .cardValue {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px;
+
+        & .imgValue {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        & .titleValue {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        & .textValue {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .Values {
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        margin: 32px;
+
+        & .cardValue {
+            gap: 0;
+
+            & .textValue {
+                display: none;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,12 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+
+.FeaturedTittle{
+    width: 85%;
+    margin-top: 135px;
+    text-align: center;
+}

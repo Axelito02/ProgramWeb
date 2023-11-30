@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&family=Poppins:wght@700&display=swap');
+
+.FeaturedProjects {
+    width: 100%;
+    height: 1200px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.FeaturedTittle {
+    width: 600px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.SmallTittle {
+    color: #E48A32;
+    font-family: Poppins;
+    font-weight: 700px;
+    word-wrap: break-word
+}
+
+.BigTittle {
+    font-family: Poppins;
+    font-weight: 700px;
+    word-wrap: break-word;
+    outline-offset: 20px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #E48A32;
+}
+
+.ProjectsFeatured {
+    width: 80%;
+    height: 800px;
+    margin: 40px auto;
+}
+
+.Project {
+    margin: 5px auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    filter: grayscale(100%);
+}
+
+.Project * {
+    margin: 10px;
+}
+
+.Project:hover {
+    transition: 1.05s;
+    scale: 1.04;
+    filter: grayscale(0%);
+}
+
+@media (max-width: 640px) {
+    .FeaturedProjects {
+        & .FeaturedTittle {
+            align-items: center;
+            width: 100%;
+            margin: 0;
+
+            & h2 {
+                margin: -1px;
+            }
+        }
+
+        .ProjectsFeatured {
+            display: flex;
+            width: 100%;
+
+            & .Project {
+                width: 100%;
+
+                & .Card {
+                    display: none;
+                }
+
+                & .Preview {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 640px) {
+    & .FeaturedTittle {
+        align-items: center;
+        margin-top: -10px;
+
+        & h2 {
+            margin: -4px;
+        }
+    }
+}

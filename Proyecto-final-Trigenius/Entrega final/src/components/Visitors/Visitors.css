@@ -1,0 +1,25 @@
+.visitor-container{
+    width: 100%;
+}
+
+.visitor-hplink{
+    color: rgba(255, 126, 0, 1);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.ideaImg{
+    width: 350px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+@media screen and (max-width: 640px){
+    .ideaImg{
+        display: none;
+    }
+
+    .visitor-container{
+        text-align: center;
+    }
+}

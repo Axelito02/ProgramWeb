@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&family=Poppins:wght@700&display=swap');
+
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+    margin-top: 140px;
+
+    & .titleSection {
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        & .titleColor {
+            color: #FF7E00;
+        }
+    }
+
+    & .containerForm {
+        
+        flex-direction: row;
+        border-radius: 12px;
+        display: flex;
+        padding: 80px;
+
+        & .componentForm {
+            display: flex;
+            justify-content: center;
+            background-color: #C1DEFF;
+        }
+    }
+}

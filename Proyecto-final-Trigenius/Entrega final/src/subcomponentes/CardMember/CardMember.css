@@ -1,0 +1,72 @@
+.CardMember {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 32px;
+    margin: 12px 160px;
+    padding: 15px;
+
+    & .imgMember {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        -webkit-filter: drop-shadow(3px 3px 6px rgba(91, 91, 91, 0.5));
+        filter: drop-shadow(3px 3px 6px rgba(91, 91, 91, 0.5));
+
+        &:hover {
+            width: 350px;
+            transition-duration: 1000ms;
+            -webkit-filter: drop-shadow(3px 3px 6px rgba(222, 126, 2, 0.7));
+            filter: drop-shadow(3px 3px 12px rgba(222, 126, 2, 0.7));
+        }
+
+        &::after {
+            width: 300px;
+            transition-duration: 1000ms;
+        }
+    }
+
+    & .infoMember {
+        padding: 35px;
+        text-align: left;
+    }
+
+    & .nameMember {
+        display: flex;
+        flex-direction: row;
+
+        & h1 {
+            font-size: 40px;
+        }
+
+        & .name {
+            color: #FF7E00;
+        }
+
+        & .lastname {
+            display: flex;
+            padding: 0 10px;
+            -webkit-text-stroke-width: 1.5px;
+            -webkit-text-stroke-color: #FF7E00;
+            color: transparent;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .CardMember {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        gap: 12px;
+        padding: 12px 0;
+
+        & .infoMember {
+            padding: 0 32px;
+
+            & .descriptionMember {
+                text-align: left;
+            }
+        }
+    }
+}
